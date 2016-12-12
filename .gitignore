@@ -79,3 +79,4 @@ build
 ################
 /coverage/
 /cobertura.ser
+src/main/resources/

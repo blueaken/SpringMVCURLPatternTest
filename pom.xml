@@ -9,7 +9,7 @@
 
 	<properties>
 		<jdk.version>1.7</jdk.version>
-		<spring.version>3.2.13.RELEASE</spring.version>
+		<spring.version>4.3.4.RELEASE</spring.version>
 		<jstl.version>1.2</jstl.version>
 	</properties>
 
@@ -49,7 +49,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/spring3</contextPath>
+						<contextPath>/spring4</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -62,7 +62,7 @@
           <downloadSources>true</downloadSources>
           <downloadJavadocs>true</downloadJavadocs>
           <wtpversion>2.0</wtpversion>
-          <wtpContextName>spring3</wtpContextName>
+          <wtpContextName>spring4</wtpContextName>
         </configuration>
       </plugin>
 
